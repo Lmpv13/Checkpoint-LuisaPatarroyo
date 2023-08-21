@@ -1,0 +1,35 @@
+ 322  mkdir Checkpoint-LuisaPatarroyo
+  323  cd Checkpoint-LuisaPatarroyo
+  324  git init
+  325  git config user.name Lmpv13
+  326  git config user.email luisapatarroyo74@gmail.com
+  327  git remote add origin https://github.com/Lmpv13/Checkpoint-LuisaPatarroyo.git
+  328  git remote -v
+  329  touch main.js index.html
+  330  git add .
+  331  git commit -m "commit 01 de LuisaPatarroyo"
+  332  git push origin main
+  333  git branch <feature>
+  334  git branch feature
+  335  git checkout feature
+  336  mkdir Hardware Software SeguridadInformatica
+  337  cd Hardware
+  338  touch resumen.txt
+  339  cd ..
+  340  cd Software
+  341  touch resumen.txt
+  342  cd ..
+  343  cd SeguridadInformatica
+  344  touch resumen.txt
+  345  cd ..
+  346  git add .
+  347  git commit -m "commit 02 de LuisaPatarroyo"
+  348  git push origin feature
+  349  git checkout main
+  350  mv main.js resumenHardware.txt
+  351  mv index.html resumenSoftware.txt
+  352  code
+  353  code
+  354  touch comandos.txt
+  355  git reflog
+  356  history
